@@ -63,10 +63,12 @@ int lastButton3State = 0;
 int buttonMode = 0; //hour, min, sec, dow, day, month, year
 
 void setup(){
+    // Start I2C
     Wire.begin();
     
     // Initialize the rtc object
     rtc.begin();
+    
     // The following lines can be uncommented to set the date and time
     //rtc.setDOW(1);     // Set Day-of-Week 1-7
     //rtc.setTime(20, 00, 10);     // Set the time h-m-s

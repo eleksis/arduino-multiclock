@@ -19,6 +19,9 @@ I pushed whole directory including libraries necessary to compile my code.
 
 ###  Functionality
 Displaying time & date from DS3231 RTC and temperature & humidity from DHT22.
+
 LCD backlight is controlled by photo sensor.
+
 3 buttons for setting time and date.
+
 Capacitive touch switch for controlling LEDs, 3-step.
